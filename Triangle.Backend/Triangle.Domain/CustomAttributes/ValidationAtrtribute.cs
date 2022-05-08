@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.ComponentModel.DataAnnotations;
 using Triangle.Domain.Dto;
 
 namespace Triangle.Domain.CustomAttributes
@@ -16,7 +11,6 @@ namespace Triangle.Domain.CustomAttributes
         }
         public override bool IsValid(object value)
         {
-           
             TriangleDto triangle = value as TriangleDto;
 
             return (triangle.FirstSide + triangle.SecondSide < triangle.ThirdSide)
