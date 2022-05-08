@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Triangle.Domain.Services.Interfaces
+﻿namespace Triangle.Domain.Services.Interfaces
 {
     public interface ITriangleService
     {

@@ -1,13 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Triangle.Domain.Services.Interfaces;
+﻿using Triangle.Domain.Services.Interfaces;
 
 namespace Triangle.Domain.Services.Implementation
 {
-    public class TriangleService: ITriangleService
+    public class TriangleService : ITriangleService
     {
         public double GetPerimeter(double firstSide, double secondSide, double thirdSide)
         {
